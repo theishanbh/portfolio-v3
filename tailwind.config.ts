@@ -13,6 +13,22 @@ const config: Config = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      fontFamily: {
+        "app-ubuntu-mono": ["Ubuntu Mono", "monospace"],
+      },
+      maxWidth: {
+        "8xl": "1440px",
+      },
+      colors: {
+        // blue
+        "app-blue-1": "#81f3fd",
+        // slate
+        "app-slate-1": "#effdff",
+        // green
+        "app-green-1": "#14fdce",
+        // grey
+        "app-grey-1": "rgba(255, 255, 255, 0.25)",
+      },
     },
   },
   plugins: [],
