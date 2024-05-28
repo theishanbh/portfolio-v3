@@ -10,7 +10,7 @@ function Awards() {
       contributions: string[];
       id: number;
     }) => (
-      <div className="block p-8 md:ml-0 md:px-4 md:pr-0" key={x.id}>
+      <div className="block pl-0 p-4 md:p-8" key={x.id}>
         <div className="text-2xl font-bold pb-2">{x.role}</div>
         <a
           href={x.link}
@@ -30,8 +30,8 @@ function Awards() {
     )
   );
   return (
-    <div className="h-auto pl-12 pt-12">
-      <h1 className="underline text-4xl">Awards</h1>
+    <div className="h-auto p-6 md:pl-12 md:pb-10 md:mb-10">
+      <h1 className="underline text-3xl md:text-4xl">Awards</h1>
       <div className="flex flex-col">{awardsDiv}</div>
     </div>
   );

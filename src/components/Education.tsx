@@ -1,8 +1,10 @@
 function Education() {
   return (
-    <div className="h-auto pl-12 pt-12">
-      <h1 className="underline text-4xl font-extrabold pb-8">Education</h1>
-      <h2 className=" text-3xl font-extrabold pb-5">
+    <div className="h-auto p-6 md:pl-12 md:pb-10 md:mb-10">
+      <h1 className="underline text-3xl md:text-4xl font-extrabold pb-8">
+        Education
+      </h1>
+      <h2 className=" text-2xl md:text-3xl font-extrabold pb-5">
         Bachelor Degree in Information Technology
       </h2>
       <h3 className="text-2xl underline-dotted ">

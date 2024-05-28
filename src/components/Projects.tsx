@@ -12,7 +12,7 @@ function Projects() {
       },
       index: number
     ) => (
-      <div className="block p-8 md:ml-0 md:p-8 md:pl-4" key={index}>
+      <div className="block pl-0 p-4 md:p-8" key={index}>
         <div className="text-2xl font-bold pb-2">{x.role}</div>
         <a
           href={x.link}
@@ -32,8 +32,8 @@ function Projects() {
     )
   );
   return (
-    <div className="h-auto pl-12 pt-12">
-      <h1 className="underline text-4xl">Projects</h1>
+    <div className="h-auto p-6 md:pl-12 md:pb-10 md:mb-10">
+      <h1 className="underline text-3xl md:text-4xl">Projects</h1>
       <div className="flex flex-col">{projectsDiv}</div>
     </div>
   );

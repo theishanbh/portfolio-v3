@@ -6,8 +6,8 @@ import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 function Footer() {
   return (
     <div className="h-auto p-8 text-center">
-      <p className="text-2xl font-bold md:text-xl">Want to connect?</p>
-      <p className="text-2xl font-bold md:text-xl">My inbox is always open!</p>
+      <p className=" font-bold text-xl">Want to connect?</p>
+      <p className="text-2xl font-bold text-xl">My inbox is always open!</p>
       <div className=" flex gap-3 pt-4 justify-center items-center">
         <a
           className="text-4xl md:text-2xl"

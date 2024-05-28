@@ -5,8 +5,8 @@ import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
 function Topbar() {
   return (
-    <div className="h-20 bg-black text-black sticky top-0 z-50 flex mb-2">
-      <div className="flex flex-1 w-1/2 h-full items-center pl-20 tablet:justify-center tablet:pl-0">
+    <div className="h-20 pl-4 md:pl-8 bg-black text-black sticky top-0 z-50 flex mb-2">
+      <div className="flex flex-1 w-1/2 h-full items-center justify-start">
         <button className="bg-white border-none text-black py-2 px-4 text-center no-underline text-base font-bold rounded-full cursor-pointer">
           {" "}
           <a
@@ -21,7 +21,7 @@ function Topbar() {
         </button>
       </div>
       <div className="flex flex-1 w-1/2 h-full justify-end items-center">
-        <div className="flex pb-2 gap-2 h-full items-center justify-end pr-8">
+        <div className="flex gap-2 h-full items-center justify-end pr-4 md:pr-8">
           <a
             className="text-2xl pr-2 pt-2"
             href="https://github.com/theishanbh"

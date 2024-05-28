@@ -4,10 +4,10 @@ import Image from "next/image";
 function Familiartech() {
   const iconBoxesDiv = featuredTech.map(
     (x: { title: string; dir: string }, index: number) => (
-      <div className="h-20 block md:h-14" key={index}>
+      <div className="md:h-20 block " key={index}>
         <div className="flex justify-center items-center">
           <Image
-            className="h-12 w-12 md:h-8 md:w-8"
+            className="h-12 w-12"
             src={x.dir}
             alt=""
             width={50}
@@ -19,11 +19,13 @@ function Familiartech() {
     )
   );
   return (
-    <div className="h-auto pl-12 pt-12">
-      <h1 className="underline text-4xl font-extrabold">
+    <div className="h-auto p-6 md:pl-12 md:pb-10 md:mb-10">
+      <h1 className="underline text-3xl md:text-4xl font-extrabold">
         Tech I'm familiar with
       </h1>
-      <div className="mt-12 flex flex-wrap items-center">{iconBoxesDiv}</div>
+      <div className="mt-12 flex flex-wrap items-center gap-y-2 md:gap-0">
+        {iconBoxesDiv}
+      </div>
     </div>
   );
 }
