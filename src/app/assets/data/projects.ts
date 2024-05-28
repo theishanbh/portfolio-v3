@@ -1,6 +1,64 @@
 export const featuredProjects = [
   {
     id: 5,
+    role: "Snapgram",
+    company: "Github Repo",
+    link: "https://github.com/theishanbh/snapgram",
+    activeTime: "March 2024",
+    contributions: ["This is a clone of popular social media app Instagram"],
+  },
+  {
+    id: 5,
+    role: "Empire Exterminators",
+    company: "Website",
+    link: "https://empireexterminatorsnyc.com/",
+    activeTime: "October 2022",
+    contributions: [
+      "Completely designed the website from scratch and deployed it using NuxtJS",
+      "Optimized the SEO of the website and improved its ranking",
+    ],
+  },
+  {
+    id: 5,
+    role: "Borzoi",
+    company: "Github Repo",
+    link: "https://github.com/theishanbh/map-scraper",
+    activeTime: "May 2022",
+    contributions: [
+      "Contributed to an open-source project, Borzoi, a code base management tool built using Golang",
+      "Built robust CI/CD pipeline with Github Actions, enabling automated releases on multiple package managers",
+      "Designed and implemented a command line tool using Viper, providing an efficient interface for managing repos",
+    ],
+  },
+  {
+    id: 5,
+    role: "Cineclash",
+    company: "Github Repo",
+    link: "https://github.com/theishanbh/CineClashFrontend",
+    activeTime: "Jan 2022",
+    contributions: [
+      "Developed CineClash, a movie-based app that allows users to stay updated on trending and popular movies ",
+      "Implemented features that enable users to review 100s of movies, compare them and access comprehensive information of their favorite movies ",
+      "Leveraged MongoDB to securely store user data, including watch lists and preferences",
+      "Used Nodejs and Express to develop the backend, creating an efficient server-side architecture of the app",
+    ],
+  },
+
+  {
+    id: 5,
+    role: "Cineclash",
+    company: "Github Repo",
+    link: "https://github.com/theishanbh/CineClashFrontend",
+    activeTime: "Jan 2022",
+    contributions: [
+      "Developed CineClash, a movie-based app that allows users to stay updated on trending and popular movies ",
+      "Implemented features that enable users to review 100s of movies, compare them and access comprehensive information of their favorite movies ",
+      "Leveraged MongoDB to securely store user data, including watch lists and preferences",
+      "Used Nodejs and Express to develop the backend, creating an efficient server-side architecture of the app",
+    ],
+  },
+  {
+    id: 5,
     role: "Google Maps Scraper",
     company: "Github Repo",
     link: "https://github.com/theishanbh/map-scraper",
