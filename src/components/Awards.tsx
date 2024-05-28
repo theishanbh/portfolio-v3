@@ -11,7 +11,7 @@ function Awards() {
       id: number;
     }) => (
       <div className="block p-8 md:ml-0 md:px-4 md:pr-0" key={x.id}>
-        <div className="text-xl font-bold pb-2">{x.role}</div>
+        <div className="text-2xl font-bold pb-2">{x.role}</div>
         <a
           href={x.link}
           className="company no-underline text-lg text-blue-500 visited:text-blue-500 hover:text-blue-700 hover:underline active:text-blue-500"
@@ -31,7 +31,7 @@ function Awards() {
   );
   return (
     <div className="h-auto pl-12 pt-12">
-      <h1 className="underline">Awards</h1>
+      <h1 className="underline text-4xl">Awards</h1>
       <div className="flex flex-col">{awardsDiv}</div>
     </div>
   );

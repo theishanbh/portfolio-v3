@@ -13,9 +13,6 @@ const config: Config = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
-      fontFamily: {
-        "app-ubuntu-mono": ["Ubuntu Mono", "monospace"],
-      },
       maxWidth: {
         "8xl": "1440px",
       },
