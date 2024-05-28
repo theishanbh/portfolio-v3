@@ -21,7 +21,7 @@ function Familiartech() {
   return (
     <div className="h-auto p-6 md:pl-12 md:pb-10 md:mb-10">
       <h1 className="underline text-3xl md:text-4xl font-extrabold">
-        Tech I'm familiar with
+        Tech I&apos;m familiar with
       </h1>
       <div className="mt-12 flex flex-wrap items-center gap-y-2 md:gap-0">
         {iconBoxesDiv}

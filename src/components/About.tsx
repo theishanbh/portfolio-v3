@@ -14,10 +14,10 @@ function About() {
         <div className="flex-col flex flex-1 mr-6 pr-10 mb-4 sm:mb-0">
           <h3 className="text-5xl  pt-10 pb-5"> Hello!</h3>
           <p className="text-xl">
-            My name is Ishan. I’m a senior from 🇮🇳. I'm a freelancer, an
-            open-source enthusiast & a learner📕! I'm deeply passionate about
-            software development & innovations. I have expertise in automation
-            and expanding my horizon of knowledge in web development.
+            My name is Ishan. I’m a senior from 🇮🇳. I&apos;m a freelancer, an
+            open-source enthusiast & a learner📕! I&apos;m deeply passionate
+            about software development & innovations. I have expertise in
+            automation and expanding my horizon of knowledge in web development.
           </p>
           <div className="pt-3 flex gap-3">
             <a
