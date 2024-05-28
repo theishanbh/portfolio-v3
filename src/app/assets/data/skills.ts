@@ -31,7 +31,7 @@ export const featuredTech = [
   },
   {
     id: 7,
-    title: "ReactJs",
+    title: "React",
     dir: "/icons/reactjs.png",
   },
   {
@@ -41,8 +41,8 @@ export const featuredTech = [
   },
   {
     id: 9,
-    title: "Scraping",
-    dir: "/icons/chrome.png",
+    title: "GO",
+    dir: "/icons/go.png",
   },
   {
     id: 10,
@@ -51,8 +51,8 @@ export const featuredTech = [
   },
   {
     id: 11,
-    title: "DSA",
-    dir: "/icons/dsa.png",
+    title: "PHP",
+    dir: "/icons/php.png",
   },
   {
     id: 12,
